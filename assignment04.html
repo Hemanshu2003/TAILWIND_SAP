@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    /* 
+      ⭐️ HINTS ⭐️
+    Name	   Size		
+      0	    0rem	
+      2	    0.5rem			
+      4	    1rem	
+      5	    1.25rem
+      6	    1.5rem
+      12	  3rem
+      6	    4rem
+      96	  24rem	
+    
+      futher hints are  given in front of css
+    
+    */
+    body {
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #d4d4d4;
+    }
+
+    /* start working from here!!! */
+    /* we know for margin we use 'm' and for padding  we use 'p' */
+    .chat-notification {
+      /* flex😎 ?  */
+      display: flex;
+      /*max-width: 24rem; means max-w-sm */
+      max-width: 24rem;
+      height: 4rem;
+      /*margin: 0 auto; means  mx-auto  */
+      margin: 0 auto;
+      padding: 1.5rem;
+      /*take it as round => rounded-xl  */
+      border-radius: 0.5rem;
+      /* #fff is white */
+      background-color: #fff;
+      /*  don't worry this means shadow-lg */
+      box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+
+    }
+
+
+
+    .chat-notification-logo {
+      /*  hehehe subko pata hai height ke liye 'h' and width ke liye 'w' hota hai */
+      height: 3rem;
+      width: 3rem;
+    }
+
+    .chat-notification-content {
+      margin-left: 1.5rem;
+    }
+
+    .chat-notification-title {
+      /* this color is nothing but black */
+      color: #000000;
+      /* font-size means text-something */
+      font-size: 1.25rem;
+      margin: 0;
+    }
+
+    .chat-notification-message {
+      /* this color is nothing but text-slate-500 */
+      color: #718096;
+      font-size: 1rem;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="chat-notification">
+    <img class="chat-notification-logo" src="./whatsapp.png" alt="WhatsApp Logo">
+    <div class="chat-notification-content">
+      <h4 class="chat-notification-title">WhatsApp</h4>
+      <p class="chat-notification-message">You have a new message!</p>
+    </div>
+  </div>
+
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+<!-- background container -->
+<!-- change dark setting over here!!!  -->
+<div class="flex items-center justify-center h-screen bg-gray-800">
+  <!-- card -->
+
+  <!-- change dark setting over here!!!  -->
+  <div class=" dark:bg-zinc-800  p-2 mx-6 rounded-2xl drop-shadow-2xl ">
+    <!-- flex box -->
+    <div class="flex flex-col md:flex-row rounded-l-xl">
+      <!-- image -->
+      <img src="./img.jpeg" alt=""
+        class="object-cover rounded-xl h-80 md:h-64 md:rounded-l-xl md:rounded-r-none transform hover:scale-105 hover:rounded-xl duration-300" />
+      <div class="p-6 md:p-10">
+        <h2 class="font-medium font-serif text-xl text-center text-white md:text-left">
+          Get closer and Feel the Nature in your Inbox !
+        </h2>
+        <p class="max-w-xs my-4 text-xs leading-wide tracking-wide text-center text-white md:text-left">
+          Look deep into nature, and then you will understand everything
+          better. Sign up for knowing more Lorem ipsum dolor sit amet consectetur adipisicing elit. Id
+          commodi enim fugit nihil cupiditate.....
+        </p>
+
+
+        <button
+          class="px-5 py-3 text-xs text-zinc-800 rounded-md bg-lime-500 hover:bg-lime-700 hover:text-white duration-500">
+          Subscribe
+        </button>
+
+      </div>
+    </div>
+  </div>
+</div>
